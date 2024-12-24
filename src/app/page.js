@@ -19,22 +19,44 @@ export default function Home() {
                   height={128}
                 />
                 <div className="flex flex-col">
-                  <p className="text-lg font-medium">FurryGang</p>
-                  <p className="text-sm text-gray-400">
-                    <span className="text-pink-300">she</span>/<span className="text-pink-300">her</span>/<span className="text-sky-400">they</span>
-                  </p>
+                  <p className="text-lg font-medium mb-1">FurryGang</p>
+                  <span style={{ marginLeft: '1.5rem' }} className="bg-purple-300 text-slate-700 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full">she/her/they 🏳️‍⚧️</span>
                 </div>
               </div>
               <div className="text-center items-center">
-                <p className="text-sm">
-                  testing 123
-                </p>
-                <p className="text-sm">
-                  I'm currently learning <span className="text-lime-400">React</span>, <span className="text-lime-400">NodeJS</span> and <span className="text-lime-400">NextJS</span>!
-                </p>
-                <p className="mb-4 text-sm">
-                  I mainly code in <span className="text-teal-400">Java</span> because <span className="text-teal-400">MCPL Dev</span>!
-                </p>
+                <div className="text-left items-start">
+                  <span className="bg-indigo-100 text-indigo-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full">About Me:</span>
+                  <p className="mb-3"></p>
+                </div>
+                <div className="text-left">
+                  <p className="text-sm">
+                  👋, I'm furrygang. I goes by she/her/they! 🏳️‍⚧️
+                  </p>
+                  <p className="text-sm">
+                    🤔 I'm a 15 years old student from Thailand 🇹🇭 !
+                  </p>
+                  <p className="text-sm">
+                    💻 I love technology and programming!
+                  </p>
+                  <p className="text-sm">
+                    🧑‍💻 My hobbies are coding and breaking stuff!
+                  </p>
+                  <p className="mb-4"></p>
+                  <div className="text-left items-start">
+                    <span className="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full">Organizations:</span>
+                    <p className="mb-3"></p>
+                  </div>
+                  <p className="text-sm">
+                    I work with a few Organizations, such as:
+                  </p>
+                  <p className="text-sm">
+                  <a href="https://github.com/notmycode-labs" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">notmycode-labs</a>, <a href="https://github.com/osu-somtum" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">osu-somtum</a>, <a href="https://github.com/deeka-mc" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">deeka-mc</a>
+                  </p>
+                  <p className="text-sm">
+                    and <a href="https://github.com/Minehut-Improvements" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Minehut-Improvements</a>!
+                  </p>
+                  <p className="mb-4"></p>
+                </div>
                 <div>
                   <p className="text-sm mb-4">You can contact me on these platform!</p>
                 </div>
@@ -73,16 +95,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
       </main>
     </div>
   );

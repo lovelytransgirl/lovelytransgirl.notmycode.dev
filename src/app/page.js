@@ -63,7 +63,7 @@ export default function Home() {
                 <div className="mb-4 text-center flex gap-4 items-center justify-center flex-col sm:flex-row">
                   <a
                     className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent inline-flex h-10 sm:h-12 px-4 sm:px-10 items-center px-3 py-2 text-sm font-medium text-center text-white gap-2"
-                    href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+                    href="mailto:epicmac2010@notmycode.dev"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -77,7 +77,7 @@ export default function Home() {
                   </a>
                   <a
                     className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent inline-flex h-10 sm:h-12 px-4 sm:px-10 items-center px-3 py-2 text-sm font-medium text-center text-white gap-2"
-                    href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+                    href="https://discord.com/users/1220230816081248289"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

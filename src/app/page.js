@@ -4,7 +4,6 @@ import Navbar from "./Navbar";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-10 gap-10 sm:p-10 font-[family-name:var(--font-geist-sans)]">
-      <Navbar />
       <main className="flex flex-col gap-8 row-start-2 items-center">
         <div className="flex justify-center gap-4 w-full max-w-4xl">
           <div className="backdrop-blur-sm flex flex-col items-center justify-center text-center bg-gray-800/60 text-white p-6 rounded-lg shadow-md w-full max-w-md">

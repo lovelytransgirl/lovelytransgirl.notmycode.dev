@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff url("https://files.enderman.ch/wallpapers/Foggy%20Evening.jpg") no-repeat center/cover fixed;
+  --background: #ffffff url("/bg.jpg") no-repeat center/cover fixed;
   --foreground: #171717;
   /* --backdrop-blur: blur(5px); */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a url("https://files.enderman.ch/wallpapers/Foggy%20Evening.jpg") no-repeat center/cover fixed;
+    --background: #0a0a0a url("/bg.jpg") no-repeat center/cover fixed;
     --foreground: #ededed;
     /* --backdrop-blur: blur(5px); */
   }

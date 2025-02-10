@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-10 gap-6 sm:p-10 font-[family-name:var(--font-geist-sans)]">
+    <div className="font-[family-name:var(--font-mali)] grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-10 gap-6 sm:p-10 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-6 row-start-2 items-center w-full">
         <div className="flex flex-col lg:flex-row justify-center gap-4 w-full max-w-4xl">
           {/* Profile Card */}
@@ -14,14 +14,14 @@ export default function Home() {
                   <Image
                     className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-lg border border-solid border-black/[.08] dark:border-white/[.145] mb-3 sm:mb-0 sm:mr-4"
                     aria-hidden
-                    src="https://cdn.discordapp.com/avatars/1220230816081248289/1c11d181ef6fd8b5c20d1911c8ff2f8a?size=1024"
+                    src="https://cdn.discordapp.com/avatars/1220230816081248289/a2616b83bc1e732faf6bc27281e3e882.webp"
                     alt="My Discord PFP"
                     width={128}
                     height={128}
                   />
                   <div className="flex flex-col items-center sm:items-start">
                     <p className="text-lg font-medium mb-1">FurryGang</p>
-                    <span className="bg-purple-300 text-slate-700 text-xs font-medium px-2.5 py-0.5 rounded-full">
+                    <span className="bg-purple-400 text-white text-xs font-medium px-2.5 py-0.5 rounded-full">
                       she/her/they 🏳️‍⚧️
                     </span>
                   </div>
@@ -29,36 +29,36 @@ export default function Home() {
 
                 <div className="text-center items-center">
                   <div className="text-left items-start">
-                    <span className="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
+                    <span className="bg-indigo-400 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
                       About Me:
                     </span>
                     <p className="mb-3"></p>
                   </div>
                   <div className="text-left">
                     <p className="text-sm">
-                      👋, I'm furrygang. I go by she/her/they! 🏳️‍⚧️
+                      A 15 years old student from Thailand
                     </p>
                     <p className="text-sm">
-                      🤔 I'm a 15 years old student from Thailand!
+                      Developer at notmycode-labs and osu-somtum.
                     </p>
                     <p className="text-sm">
-                      💻 I love technology and programming!
+                      Primary code in js and design frontend.
                     </p>
                     <p className="text-sm">
-                      🧑‍💻 My hobbies are coding and breaking stuff!
+                      Has a weird hobby of being a gay furry
                     </p>
                     <p className="mb-4"></p>
                     <div className="text-left items-start">
-                      <span className="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
-                        Organizations:
+                      <span className="bg-green-400 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
+                        Contributions
                       </span>
                       <p className="mb-3"></p>
                     </div>
                     <p className="text-sm">
-                      I work with a few Organizations, such as:
+                      I have contribute to organizations such as
                     </p>
                     <p className="text-sm">
-                      <a href="https://github.com/osu-somtum" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">osu-somtum</a>, <a href="https://github.com/notmycode-labs" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">notmycode-labs</a>, <a href="https://github.com/osu-somtum" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">osu-somtum</a>, and <a href="https://github.com/Minehut-Improvements" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Minehut-Improvements</a>!
+                      <a href="https://github.com/osu-somtum" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">osu-somtum</a> and <a href="https://github.com/notmycode-labs" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">notmycode-labs</a>!
                     </p>
                     <p className="mb-4"></p>
                   </div>
@@ -106,8 +106,8 @@ export default function Home() {
           {/* Social Media Card */}
           <div className="backdrop-blur-sm bg-gray-800/60 text-white p-4 sm:p-6 rounded-lg shadow-md w-full">
             <div className="flex flex-col justify-center items-center gap-4 text-center">
-              <span className="bg-purple-100 text-purple-800 text-lg font-medium px-2.5 py-0.5 rounded-full">My Social Media</span>
-              <p className="mb-2 text-sm">My Online Accounts! Get in touch and connect with me!</p>
+              <span className="bg-purple-400 text-white text-lg font-medium px-2.5 py-0.5 rounded-full">Social Media</span>
+              <p className="mb-2 text-sm">Stalk me on the internet with these socials</p>
               <div className="grid grid-cols-2 gap-3 w-full">
                 <a
                   className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent inline-flex h-10 px-4 items-center justify-center gap-2"
@@ -148,15 +148,16 @@ export default function Home() {
                   Steam
                 </a>
               </div>
-              <span className="bg-yellow-100 text-yellow-800 text-lg font-medium px-2.5 py-0.5 rounded-full">Funny Screenshot</span>
-              <div className="w-full">
-                <Image 
-                  className="rounded w-full h-auto" 
-                  src="/bruh.png" 
-                  alt="bruh" 
-                  width={384} 
-                  height={216}
-                />
+              <span className="mt-4 bg-yellow-800 text-yellow-400 text-lg font-medium px-2.5 py-0.5 rounded-full mb-4">Github Statistics</span>
+              <div className="w-full flex flex-col items-center justify-center gap-4">
+                <a href="https://github.com/UnitieG" className="flex flex-col items-center gap-4">
+                  <img
+                    height="180em"
+                    className="w-full max-w-[500px]"
+                    src="https://github-readme-stats-eight-theta.vercel.app/api?username=UnitieG&theme=dark&show_icons=true"
+                  />
+                </a>
+                <a className="text-sm text-slate-400">(I only use github on private repository so yeah)</a>
               </div>
             </div>
           </div>

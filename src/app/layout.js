@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import { Mali } from 'next/font/google';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -11,8 +12,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const MaliFont = Mali({
+  variable: "--font-mali",
+  weight: "500",
+  subsets: ["latin"],
+});
+
 export const metadata = {
-  title: "Hewwo! o/",
+  title: "Welcome to nginx!",
   description: "Hello there! Welcome to my website :3",
   author: "FurryGang"
 };
@@ -21,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${MaliFont.variable} antialiased `}
       >
         {children}
       </body>

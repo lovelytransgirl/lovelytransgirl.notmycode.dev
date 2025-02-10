@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <div className="font-[family-name:var(--font-mali)] grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-10 gap-6 sm:p-10 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-6 row-start-2 items-center w-full">
-        <div className="flex flex-col lg:flex-row justify-center gap-4 w-full max-w-4xl">
+      <div className="flex flex-col lg:flex-row justify-center gap-4 w-full max-w-4xl">
           {/* Profile Card */}
-          <div className="backdrop-blur-sm flex flex-col items-center justify-center text-center bg-gray-800/60 text-white p-4 sm:p-6 rounded-lg shadow-md w-full">
+          <div className="backdrop-blur-sm flex flex-col items-center justify-center text-center bg-gray-800/60 text-white p-4 sm:p-6 rounded-lg shadow-md w-full border border-purple-400/10 ring-4 ring-purple-400/20">
             <div className="flex flex-col items-center space-y-4 justify-center w-full">
               <div className="p-2 rounded text-center items-center w-full">
                 <div className="mb-4 flex flex-col sm:flex-row items-center justify-center">
@@ -104,7 +104,7 @@ export default function Home() {
           </div>
 
           {/* Social Media Card */}
-          <div className="backdrop-blur-sm bg-gray-800/60 text-white p-4 sm:p-6 rounded-lg shadow-md w-full">
+          <div className="backdrop-blur-sm bg-gray-800/60 text-white p-4 sm:p-6 rounded-lg shadow-md w-full border-purple-400/10 ring-4 ring-purple-400/20">
             <div className="flex flex-col justify-center items-center gap-4 text-center">
               <span className="bg-purple-400 text-white text-lg font-medium px-2.5 py-0.5 rounded-full">Social Media</span>
               <p className="mb-2 text-sm">Stalk me on the internet with these socials</p>

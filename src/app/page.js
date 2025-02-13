@@ -127,7 +127,7 @@ export default function Home() {
                 </a>
                 <a
                   className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent inline-flex h-10 px-4 items-center justify-center gap-2"
-                  href="https://github.com/UnitieG"
+                  href="https://github.com/furriesgang"
                   rel="noopener noreferrer"
                 >
                   <Image
@@ -150,11 +150,11 @@ export default function Home() {
               </div>
               <span className="mt-4 bg-yellow-800 text-yellow-400 text-lg font-medium px-2.5 py-0.5 rounded-full mb-4">Github Statistics</span>
               <div className="w-full flex flex-col items-center justify-center gap-4">
-                <a href="https://github.com/UnitieG" className="flex flex-col items-center gap-4">
+                <a href="https://github.com/furriesgang" className="flex flex-col items-center gap-4">
                   <img
                     height="180em"
                     className="w-full max-w-[500px]"
-                    src="https://github-readme-stats-eight-theta.vercel.app/api?username=UnitieG&theme=dark&show_icons=true"
+                    src="https://github-readme-stats-eight-theta.vercel.app/api?username=furriesgang&theme=dark&show_icons=true"
                   />
                 </a>
                 <a className="text-sm text-slate-400">(I only use github on private repository so yeah)</a>

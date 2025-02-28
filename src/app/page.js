@@ -1,6 +1,5 @@
 'use client'
 import Image from "next/image";
-import Navbar from "./Navbar";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -32,9 +31,9 @@ export default function Home() {
                     height={128}
                   />
                   <div className="flex flex-col items-center sm:items-start">
-                    <p className="text-lg font-medium mb-1">FurryGang</p>
+                    <p className="text-lg font-medium mb-1">lovelytransgirl</p>
                     <span className="bg-purple-400 text-white text-xs font-medium px-2.5 py-0.5 rounded-full">
-                      she/her/they 🏳️‍⚧️
+                      she/they 🏳️‍⚧️
                     </span>
                   </div>
                 </div>
@@ -51,18 +50,18 @@ export default function Home() {
                       A 15 years old student from Thailand
                     </p>
                     <p className="text-sm">
-                      Developer at notmycode-labs and osu-somtum.
+                      Self-taught programmer and designer.
                     </p>
                     <p className="text-sm">
-                      Primary code in js and design frontend.
+                      Primarily code in javascript and python
                     </p>
                     <p className="text-sm">
-                      Has a weird hobby of being a gay furry
+                      Has a weird hobby of being a catgirl
                     </p>
                     <p className="mb-4"></p>
                     <div className="text-left items-start">
                       <span className="bg-green-400 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">
-                        Contributions
+                        Projects and Contribution
                       </span>
                       <p className="mb-3"></p>
                     </div>
@@ -70,7 +69,7 @@ export default function Home() {
                       I have contribute to organizations such as
                     </p>
                     <p className="text-sm">
-                      <a href="https://github.com/osu-somtum" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">osu-somtum</a> and <a href="https://github.com/notmycode-labs" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">notmycode-labs</a>!
+                      <a className="text-blue-400" href="https://github.com/notmycode-labs">notmycode-labs</a> and <a className="text-blue-400" href="https://github.com/osu-somtum">osu!somtum</a>
                     </p>
                     <p className="mb-4"></p>
                   </div>
@@ -81,8 +80,8 @@ export default function Home() {
                   </div>
                   <div className="mb-4 text-center flex gap-3 items-center justify-center flex-col sm:flex-row">
                     <a
-                      className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
-                      href="mailto:epicmac2010@notmycode.dev"
+                      className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-all duration-300 bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
+                      href="mailto:ru4me@notmycode.dev"
                       rel="noopener noreferrer"
                     >
                       <Image
@@ -94,8 +93,8 @@ export default function Home() {
                       Email
                     </a>
                     <a
-                      className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-all duration-300 bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent hover:scale-105 inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
-                      href="https://discord.com/users/1220230816081248289"
+                      className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-all duration-300 bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
+                      href="https://discord.com/users/1341940052791529516"
                       rel="noopener noreferrer"
                     >
                       <Image
@@ -126,24 +125,24 @@ export default function Home() {
               <div className={`grid grid-cols-2 gap-3 w-full transition-all duration-1000 delay-500 ease-out ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
                 }`}>
                 <a
-                  className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-all duration-300 bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent hover:scale-105 inline-flex h-10 px-4 items-center justify-center gap-2"
-                  href="https://discord.com/users/1220230816081248289"
+                  className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-all duration-300 bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-4 items-center justify-center gap-2"
+                  href="https://discord.com/users/1341940052791529516"
                   rel="noopener noreferrer"
                 >
                   <Image src="/discord.svg" alt="Discord icon" width={16} height={16} />
                   Discord
                 </a>
                 <a
-                  className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-all duration-300 bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent hover:scale-105 inline-flex h-10 px-4 items-center justify-center gap-2"
-                  href="https://t.me/furriesgang"
+                  className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-all duration-300 bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-4 items-center justify-center gap-2"
+                  href="https://t.me/mrrpmeowcolon"
                   rel="noopener noreferrer"
                 >
                   <Image src="/telegram.svg" alt="Telegram icon" width={16} height={16} />
                   Telegram
                 </a>
                 <a
-                  className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-all duration-300 bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent hover:scale-105 inline-flex h-10 px-4 items-center justify-center gap-2"
-                  href="https://github.com/furriesgang"
+                  className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-all duration-300 bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-4 items-center justify-center gap-2"
+                  href="https://github.com/lovelytransgirl"
                   rel="noopener noreferrer"
                 >
                   <Image
@@ -156,8 +155,8 @@ export default function Home() {
                   Github
                 </a>
                 <a
-                  className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-all duration-300 bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent hover:scale-105 inline-flex h-10 px-4 items-center justify-center gap-2"
-                  href="https://steamcommunity.com/id/unityglol/"
+                  className="no-underline bg-gray-800/60 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-all duration-300 bg-black hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-4 items-center justify-center gap-2"
+                  href="https://steamcommunity.com/id/mrrpmeowcolon/"
                   rel="noopener noreferrer"
                 >
                   <Image src="/steam.svg" alt="Steam icon" width={16} height={16} />
@@ -166,11 +165,11 @@ export default function Home() {
               </div>
               <span className="mt-4 bg-yellow-800 text-yellow-400 text-lg font-medium px-2.5 py-0.5 rounded-full mb-4">Github Statistics</span>
               <div className="w-full flex flex-col items-center justify-center gap-4">
-                <a href="https://github.com/furriesgang" className="flex flex-col items-center gap-4">
+                <a href="https://github.com/lovelytransgirl/" className="flex flex-col items-center gap-4">
                   <img
                     height="180em"
                     className="w-full max-w-[500px]"
-                    src="https://github-readme-stats-eight-theta.vercel.app/api?username=furriesgang&theme=dark&show_icons=true"
+                    src="https://github-readme-stats-eight-theta.vercel.app/api?username=lovelytransgirl&theme=dark&show_icons=true"
                   />
                 </a>
                 <a className="text-sm text-slate-400">(I only use github on private repository so yeah)</a>

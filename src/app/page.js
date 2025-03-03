@@ -12,8 +12,8 @@ export default function Home() {
     }, 300);
   }, []);
   return (
-    <div className="animate-gradient font-[family-name:var(--font-mali)] grid grid-rows-[auto_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-10 gap-6 sm:p-10 font-[family-name:var(--font-geist-sans)]">
-      <Navbar/>
+    <div className="animate-gradient font-[family-name:var(--font-mali)] grid grid-rows-[auto_1fr_20px] items-center justify-items-center min-h-screen p-2 sm:p-4 md:p-10 pb-10 gap-4 sm:gap-6 font-[family-name:var(--font-geist-sans)]">
+      <Navbar />
       <main className="flex flex-col gap-6 row-start-2 items-center w-full">
         <div className="flex flex-col gap-6 row-start-2 items-center w-full">
           <div className="flex flex-col lg:flex-row justify-center gap-4 w-full max-w-4xl">

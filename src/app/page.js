@@ -4,15 +4,33 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
+  const [currentTime, setCurrentTime] = useState('');
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoaded(true);
     }, 300);
-    return () => clearTimeout(timer);
+
+    const updateTime = () => {
+      const now = new Date();
+      setCurrentTime(now.toLocaleTimeString());
+    };
+
+    updateTime();
+    const timeInterval = setInterval(updateTime, 1000);
+
+    return () => {
+      clearTimeout(timer);
+      clearInterval(timeInterval);
+    };
   }, []);
   return (
-    <div className="animate-gradient font-[family-name:var(--font-mali)] grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-10 gap-6 sm:p-10 font-[family-name:var(--font-geist-sans)]">
+    <div className="animate-gradient font-[family-name:var(--font-mali)] grid grid-rows-[auto_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-10 gap-6 sm:p-10 font-[family-name:var(--font-geist-sans)]">
+      {/* Cock Card */}
+      <div className={`transform transition-all duration-1000 ease-out ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+        } backdrop-blur-sm bg-gray-800/60 text-white p-4 rounded-lg shadow-md w-full max-w-4xl border border-purple-400/10 ring-4 ring-purple-400/20 flex justify-center items-center`}>
+        <span className="text-2xl font-medium">{currentTime}</span>
+      </div>
       <main className="flex flex-col gap-6 row-start-2 items-center w-full">
         <div className="flex flex-col gap-6 row-start-2 items-center w-full">
           <div className="flex flex-col lg:flex-row justify-center gap-4 w-full max-w-4xl">

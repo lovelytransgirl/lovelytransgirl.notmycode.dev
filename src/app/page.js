@@ -1,17 +1,11 @@
 'use client'
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import Navbar from "./Navbar";
 
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
 
-  const surprise = () => {
-    window.location.href = "https://e926.net/posts/random?tags=protogen+order:score+rating:safe";
-  }
-
-  const notfin = () => {
-    alert("This will be implemented in the future");
-  }
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoaded(true);
@@ -19,18 +13,7 @@ export default function Home() {
   }, []);
   return (
     <div className="animate-gradient font-[family-name:var(--font-mali)] grid grid-rows-[auto_1fr_20px] items-center justify-items-center min-h-screen p-4 pb-10 gap-6 sm:p-10 font-[family-name:var(--font-geist-sans)]">
-      <div className={`transform transition-all duration-1000 ease-out ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-        } backdrop-blur-sm bg-gray-700/50 text-white p-4 rounded-lg shadow-md w-full max-w-4xl border border-purple-400/10 ring-4 ring-purple-400/20 flex justify-center items-center`}>
-        <div className="flex flex-col items-center justify-center">
-          {/* NavBar Buttons */}
-          <div className="flex flex-row items-center justify-center gap-4">
-            <button onClick={surprise} className="bg-gray-700/50 px-4 py-2 rounded-lg">Home</button>
-            <button onClick={notfin} className="bg-gray-700/50 px-4 py-2 rounded-lg">Projects</button>
-            <button onClick={notfin} className="bg-gray-700/50 px-4 py-2 rounded-lg">Blogs</button>
-            <button onClick={surprise} className="bg-gray-700/50 px-4 py-2 rounded-lg">Click for a surprise</button>
-          </div>
-        </div>
-      </div>
+      <Navbar/>
       <main className="flex flex-col gap-6 row-start-2 items-center w-full">
         <div className="flex flex-col gap-6 row-start-2 items-center w-full">
           <div className="flex flex-col lg:flex-row justify-center gap-4 w-full max-w-4xl">

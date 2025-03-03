@@ -82,7 +82,7 @@ export default function Home() {
                     </div>
                     <div className="mb-4 text-center flex gap-3 items-center justify-center flex-col sm:flex-row">
                       <a
-                        className="no-underline bg-gray-800/50 rounded-lg border border-solid border-white/[.145] transition-all duration-300 bg-gray-900/50 hover:bg-[#1a1a1a]/50 hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
+                        className="no-underline bg-gray-800/50 rounded-lg border border-solid border-white/[.145] transition-all duration-300 hover:bg-[#1a1a1a]/50 hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
                         href="mailto:ru4me@notmycode.dev"
                         rel="noopener noreferrer"
                       >
@@ -95,7 +95,7 @@ export default function Home() {
                         Email
                       </a>
                       <a
-                        className="no-underline bg-gray-800/50 rounded-lg border border-solid border-white/[.145] transition-all duration-300 bg-gray-900/50 hover:bg-[#1a1a1a]/50 hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
+                        className="no-underline bg-gray-800/50 rounded-lg border border-solid border-white/[.145] transition-all duration-300 hover:bg-[#1a1a1a]/50 hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
                         href="https://discord.com/users/1341940052791529516"
                         rel="noopener noreferrer"
                       >

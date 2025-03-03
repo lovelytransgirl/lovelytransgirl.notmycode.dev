@@ -21,10 +21,10 @@ const Navbar = () => {
       <div className="flex flex-col items-center justify-center">
         {/* NavBar Buttons */}
         <div className="flex flex-row items-center justify-center gap-4">
-          <button onClick={surprise} className="bg-gray-700/50 px-4 py-2 rounded-lg">Home</button>
-          <button onClick={notfin} className="bg-gray-700/50 px-4 py-2 rounded-lg">Projects</button>
-          <button onClick={notfin} className="bg-gray-700/50 px-4 py-2 rounded-lg">Blogs</button>
-          <button onClick={surprise} className="bg-gray-700/50 px-4 py-2 rounded-lg">Click for a surprise</button>
+          <button onClick={surprise} className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95">Home</button>
+          <button onClick={notfin} className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95">Projects</button>
+          <button onClick={notfin} className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95">Blogs</button>
+          <button onClick={surprise} className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95">Click for a surprise</button>
         </div>
       </div>
     </div>

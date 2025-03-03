@@ -27,8 +27,26 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="preconnect"
+          href="https://cdn.discordapp.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preconnect"
+          href="https://github-readme-stats-eight-theta.vercel.app"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/background.webp"
+          as="image"
+          type="image/webp"
+        />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${MaliFont.variable} antialiased `}
+        className={`${geistSans.variable} ${geistMono.variable} ${MaliFont.variable} antialiased`}
       >
         {children}
       </body>

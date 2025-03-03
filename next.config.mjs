@@ -1,15 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['vercel.com', 'files.enderman.ch', 'cdn.discordapp.com'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    formats: ['image/webp'],
+    domains: ['vercel.com', 'files.enderman.ch', 'cdn.discordapp.com', 'github-readme-stats-eight-theta.vercel.app'],
+    formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 60,
   },
-  experimental: {
-    optimizeCss: true,
-    scrollRestoration: true,
-  },
+  compress: true,
+  poweredByHeader: false,
+  reactStrictMode: true,
+  swcMinify: true,
 };
 
 export default nextConfig;

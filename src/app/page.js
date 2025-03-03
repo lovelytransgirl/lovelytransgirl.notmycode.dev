@@ -26,11 +26,13 @@ export default function Home() {
                   <div className="mb-4 flex flex-col sm:flex-row items-center justify-center">
                     <Image
                       className="w-20 h-20 sm:w-24 sm:h-24 rounded-lg shadow-lg border border-solid border-black/[.08] dark:border-white/[.145] mb-3 sm:mb-0 sm:mr-4"
-                      aria-hidden
                       src="https://cdn.discordapp.com/avatars/1341940052791529516/25c59139f64df5c3416a3188be684492?size=1024"
-                      alt="My Discord PFP"
+                      alt="discord pfp"
                       width={128}
                       height={128}
+                      priority={true}
+                      loading="eager"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                     <div className="flex flex-col items-center sm:items-start">
                       <p className="text-lg font-medium mb-1">lovelytransgirl</p>
@@ -85,6 +87,7 @@ export default function Home() {
                         className="no-underline bg-gray-800/50 rounded-lg border border-solid border-white/[.145] transition-all duration-300 hover:bg-[#1a1a1a]/50 hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
                         href="mailto:ru4me@notmycode.dev"
                         rel="noopener noreferrer"
+                        aria-label="Send an email to ru4me@notmycode.dev"
                       >
                         <Image
                           src="/gmail.svg"
@@ -98,6 +101,7 @@ export default function Home() {
                         className="no-underline bg-gray-800/50 rounded-lg border border-solid border-white/[.145] transition-all duration-300 hover:bg-[#1a1a1a]/50 hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
                         href="https://discord.com/users/1341940052791529516"
                         rel="noopener noreferrer"
+                        aria-label="Connect with lovelytransgirl on Discord"
                       >
                         <Image
                           src="/discord.svg"
@@ -167,11 +171,16 @@ export default function Home() {
                 </div>
                 <span className="mt-4 bg-yellow-800 text-yellow-400 text-lg font-medium px-2.5 py-0.5 rounded-lg mb-4">Github Statistics</span>
                 <div className="w-full flex flex-col items-center justify-center gap-4">
-                  <a href="https://github.com/lovelytransgirl/" className="flex flex-col items-center gap-4">
-                    <img
-                      height="180em"
-                      className="w-full max-w-[500px]"
-                      src="https://github-readme-stats-eight-theta.vercel.app/api?username=lovelytransgirl&theme=dark&show_icons=true"
+                  <a 
+                    href="https://github.com/lovelytransgirl/" 
+                    className="flex flex-col items-center gap-4"
+                    aria-label="Visit lovelytransgirl's GitHub profile to see more statistics"
+                  >
+                    <img 
+                      height="180em" 
+                      className="w-full max-w-[500px]" 
+                      src="https://github-readme-stats-eight-theta.vercel.app/api?username=lovelytransgirl" 
+                      alt="GitHub statistics"
                     />
                   </a>
                   <a className="text-sm text-slate-400">(I only use github on private repository so yeah)</a>

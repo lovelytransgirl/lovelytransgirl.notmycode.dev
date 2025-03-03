@@ -19,9 +19,9 @@ const MaliFont = Mali({
 });
 
 export const metadata = {
-  title: "Welcome to nginx!",
+  title: "Portfilio (how do you spell it idfk)",
   description: "Hello there! Welcome to my website :3",
-  author: "FurryGang"
+  author: "lovelytransgirl"
 };
 
 export default function RootLayout({ children }) {

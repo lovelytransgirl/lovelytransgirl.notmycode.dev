@@ -191,21 +191,44 @@ export default function Home() {
               <div className="w-full">
                 <span className="text-purple-400 text-sm font-medium">Programming Languages</span>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2">
-                  <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
-                    <Image src="/javascript.svg" alt="JavaScript" width={24} height={24} />
-                    <span>JavaScript</span>
+                  <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Image src="/javascript.svg" alt="JavaScript" width={24} height={24} />
+                      <span>JavaScript</span>
+                    </div>
+                    <div className="w-full bg-gray-600 rounded-full h-2">
+                      <div className="bg-purple-400 h-2 rounded-full" style={{ width: '76%' }}></div>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
-                    <Image src="/java.svg" alt="Java" width={24} height={24} />
-                    <span>Java</span>
+
+                  <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Image src="/java.svg" alt="Java" width={24} height={24} />
+                      <span>Java</span>
+                    </div>
+                    <div className="w-full bg-gray-600 rounded-full h-2">
+                      <div className="bg-purple-400 h-2 rounded-full" style={{ width: '38%' }}></div>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
-                    <Image src="/python.svg" alt="Python" width={24} height={24} />
-                    <span>Python</span>
+
+                  <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Image src="/python.svg" alt="Python" width={24} height={24} />
+                      <span>Python</span>
+                    </div>
+                    <div className="w-full bg-gray-600 rounded-full h-2">
+                      <div className="bg-purple-400 h-2 rounded-full" style={{ width: '20%' }}></div>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
-                    <Image src="/rust.svg" alt="Rust" width={24} height={24} />
-                    <span>Rust</span>
+
+                  <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Image src="/rust.svg" alt="Rust" width={24} height={24} />
+                      <span>Rust</span>
+                    </div>
+                    <div className="w-full bg-gray-600 rounded-full h-2">
+                      <div className="bg-purple-400 h-2 rounded-full" style={{ width: '2%' }}></div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -214,21 +237,44 @@ export default function Home() {
               <div className="w-full">
                 <span className="text-green-400 text-sm font-medium">Frameworks & Libraries</span>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2">
-                  <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
-                    <Image src="/react.svg" alt="React" width={24} height={24} />
-                    <span>React</span>
+                  <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Image src="/react.svg" alt="React" width={24} height={24} />
+                      <span>React</span>
+                    </div>
+                    <div className="w-full bg-gray-600 rounded-full h-2">
+                      <div className="bg-green-400 h-2 rounded-full" style={{ width: '20%' }}></div>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
-                    <Image src="/nextjs.svg" alt="Next.js" width={24} height={24} className="invert" />
-                    <span>Next.js</span>
+
+                  <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Image src="/nextjs.svg" alt="Next.js" width={24} height={24} className="invert" />
+                      <span>Next.js</span>
+                    </div>
+                    <div className="w-full bg-gray-600 rounded-full h-2">
+                      <div className="bg-green-400 h-2 rounded-full" style={{ width: '30%' }}></div>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
-                    <Image src="/tailwind.svg" alt="Tailwind" width={24} height={24} />
-                    <span>Tailwind</span>
+
+                  <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Image src="/tailwind.svg" alt="Tailwind" width={24} height={24} />
+                      <span>Tailwind</span>
+                    </div>
+                    <div className="w-full bg-gray-600 rounded-full h-2">
+                      <div className="bg-green-400 h-2 rounded-full" style={{ width: '85%' }}></div>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
-                    <Image src="/nodejs.svg" alt="Node.js" width={24} height={24} />
-                    <span>Node.js</span>
+
+                  <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Image src="/nodejs.svg" alt="Node.js" width={24} height={24} />
+                      <span>Node.js</span>
+                    </div>
+                    <div className="w-full bg-gray-600 rounded-full h-2">
+                      <div className="bg-green-400 h-2 rounded-full" style={{ width: '30%' }}></div>
+                    </div>
                   </div>
                 </div>
               </div>

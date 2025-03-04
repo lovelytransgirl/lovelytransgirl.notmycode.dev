@@ -22,7 +22,7 @@ const Navbar = () => {
         {/* NavBar Buttons */}
         <div className="flex flex-wrap sm:flex-nowrap items-center justify-center gap-2 sm:gap-4">
           <a href="/" className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95 border border-purple-400/10 ring-4 ring-purple-400/20">Home</a>
-          <button onClick={notfin} className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95 border border-purple-400/10 ring-4 ring-purple-400/20">Projects</button>
+          <a href="/projects" className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95 border border-purple-400/10 ring-4 ring-purple-400/20">Projects</a>
           <a href="/blog" className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95 border border-purple-400/10 ring-4 ring-purple-400/20">Blogs</a>
           <button onClick={notfin} className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95 border border-purple-400/10 ring-4 ring-purple-400/20">Links</button>
           <button onClick={surprise} className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95 border border-purple-400/10 ring-4 ring-purple-400/20">Click 4 Surprise</button>

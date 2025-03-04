@@ -309,7 +309,7 @@ export default function Home() {
 
                   <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-4">
-                      <Image src="/assets/python.svg" alt="Nextcord" width={24} height={24} />
+                      <Image src="/assets/nextcord.svg" alt="Nextcord" width={24} height={24} />
                       <span>Nextcord</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">

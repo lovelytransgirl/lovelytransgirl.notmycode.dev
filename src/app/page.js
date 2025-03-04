@@ -180,7 +180,7 @@ export default function Home() {
                     <img 
                       height="180em" 
                       className="w-full max-w-[500px]" 
-                      src="https://github-readme-stats-eight-theta.vercel.app/api?username=lovelytransgirl" 
+                      src="https://github-readme-stats-eight-theta.vercel.app/api?username=lovelytransgirl&theme=synthwave" 
                       alt="GitHub statistics"
                     />
                   </a>

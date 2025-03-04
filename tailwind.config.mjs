@@ -11,7 +11,35 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: 'none',
+            color: 'white',
+            h1: {
+              color: 'rgb(192, 132, 252)',
+            },
+            h2: {
+              color: 'rgb(192, 132, 252)',
+            },
+            h3: {
+              color: 'rgb(192, 132, 252)',
+            },
+            strong: {
+              color: 'rgb(216, 180, 254)',
+            },
+            a: {
+              color: 'rgb(192, 132, 252)',
+              '&:hover': {
+                color: 'rgb(216, 180, 254)',
+              },
+            },
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };

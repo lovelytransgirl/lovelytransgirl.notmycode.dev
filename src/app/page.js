@@ -85,13 +85,13 @@ export default function Home() {
                     </div>
                     <div className="mb-4 text-center flex gap-3 items-center justify-center flex-col sm:flex-row">
                       <a
-                        className="no-underline bg-gray-800/50 rounded-lg border border-solid border-white/[.145] transition-all duration-300 hover:bg-[#1a1a1a]/50 hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
+                        className="no-underline bg-gray-800/50 rounded-lg border border-purple-400/10 ring-4 ring-purple-400/20 transition-all duration-300 hover:bg-[#1a1a1a]/50 hover:scale-105 active:scale-95 inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
                         href="mailto:ru4me@notmycode.dev"
                         rel="noopener noreferrer"
                         aria-label="Send an email to ru4me@notmycode.dev"
                       >
                         <Image
-                          src="/gmail.svg"
+                          src="/assets/gmail.svg"
                           alt="Gmail icon"
                           width={16}
                           height={16}
@@ -99,13 +99,13 @@ export default function Home() {
                         Email
                       </a>
                       <a
-                        className="no-underline bg-gray-800/50 rounded-lg border border-solid border-white/[.145] transition-all duration-300 hover:bg-[#1a1a1a]/50 hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
+                        className="no-underline bg-gray-800/50 rounded-lg border border-purple-400/10 ring-4 ring-purple-400/20 transition-all duration-300 hover:bg-[#1a1a1a]/50 hover:scale-105 active:scale-95 inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
                         href="https://discord.com/users/1341940052791529516"
                         rel="noopener noreferrer"
                         aria-label="Connect with lovelytransgirl on Discord"
                       >
                         <Image
-                          src="/discord.svg"
+                          src="/assets/discord.svg"
                           alt="Discord icon"
                           width={16}
                           height={16}
@@ -132,29 +132,29 @@ export default function Home() {
                 <div className={`grid grid-cols-2 gap-3 w-full transition-all duration-1000 delay-500 ease-out ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
                   }`}>
                   <a
-                    className="no-underline bg-gray-800/50 rounded-lg border border-solid border-white/[.145] transition-all duration-300 bg-gray-900/50 hover:bg-[#1a1a1a]/50 hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-4 items-center justify-center gap-2"
+                    className="no-underline bg-gray-800/50 rounded-lg border border-purple-400/10 ring-4 ring-purple-400/20 transition-all duration-300 bg-gray-900/50 hover:bg-[#1a1a1a]/50 hover:scale-105 active:scale-95 inline-flex h-10 px-4 items-center justify-center gap-2"
                     href="https://discord.com/users/1341940052791529516"
                     rel="noopener noreferrer"
                   >
-                    <Image src="/discord.svg" alt="Discord icon" width={16} height={16} />
+                    <Image src="/assets/discord.svg" alt="Discord icon" width={16} height={16} />
                     Discord
                   </a>
                   <a
-                    className="no-underline bg-gray-800/50 rounded-lg border border-solid border-white/[.145] transition-all duration-300 bg-gray-900/50 hover:bg-[#1a1a1a]/50 hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-4 items-center justify-center gap-2"
+                    className="no-underline bg-gray-800/50 rounded-lg border border-purple-400/10 ring-4 ring-purple-400/20 transition-all duration-300 bg-gray-900/50 hover:bg-[#1a1a1a]/50 hover:scale-105 active:scale-95 inline-flex h-10 px-4 items-center justify-center gap-2"
                     href="https://t.me/mrrpmeowcolon"
                     rel="noopener noreferrer"
                   >
-                    <Image src="/telegram.svg" alt="Telegram icon" width={16} height={16} />
+                    <Image src="/assets/telegram.svg" alt="Telegram icon" width={16} height={16} />
                     Telegram
                   </a>
                   <a
-                    className="no-underline bg-gray-800/50 rounded-lg border border-solid border-white/[.145] transition-all duration-300 bg-gray-900/50 hover:bg-[#1a1a1a]/50 hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-4 items-center justify-center gap-2"
+                    className="no-underline bg-gray-800/50 rounded-lg border border-purple-400/10 ring-4 ring-purple-400/20 transition-all duration-300 bg-gray-900/50 hover:bg-[#1a1a1a]/50 hover:scale-105 active:scale-95 inline-flex h-10 px-4 items-center justify-center gap-2"
                     href="https://github.com/lovelytransgirl"
                     rel="noopener noreferrer"
                   >
                     <Image
                       className="invert"
-                      src="/github-mark.svg"
+                      src="/assets/github-mark.svg"
                       alt="Github icon"
                       width={16}
                       height={16}
@@ -162,11 +162,11 @@ export default function Home() {
                     Github
                   </a>
                   <a
-                    className="no-underline bg-gray-800/50 rounded-lg border border-solid border-white/[.145] transition-all duration-300 bg-gray-900/50 hover:bg-[#1a1a1a]/50 hover:border-transparent hover:scale-105 active:scale-95 inline-flex h-10 px-4 items-center justify-center gap-2"
+                    className="no-underline bg-gray-800/50 rounded-lg border border-purple-400/10 ring-4 ring-purple-400/20 transition-all duration-300 bg-gray-900/50 hover:bg-[#1a1a1a]/50 hover:scale-105 active:scale-95 inline-flex h-10 px-4 items-center justify-center gap-2"
                     href="https://steamcommunity.com/id/mrrpmeowcolon/"
                     rel="noopener noreferrer"
                   >
-                    <Image src="/steam.svg" alt="Steam icon" width={16} height={16} />
+                    <Image src="/assets/steam.svg" alt="Steam icon" width={16} height={16} />
                     Steam
                   </a>
                 </div>
@@ -203,7 +203,7 @@ export default function Home() {
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2">
                   <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-4">
-                      <Image src="/javascript.svg" alt="JavaScript" width={24} height={24} />
+                      <Image src="/assets/javascript.svg" alt="JavaScript" width={24} height={24} />
                       <span>JavaScript</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">
@@ -213,7 +213,7 @@ export default function Home() {
 
                   <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-4">
-                      <Image src="/java.svg" alt="Java" width={24} height={24} />
+                      <Image src="/assets/java.svg" alt="Java" width={24} height={24} />
                       <span>Java</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">
@@ -223,7 +223,7 @@ export default function Home() {
 
                   <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-4">
-                      <Image src="/python.svg" alt="Python" width={24} height={24} />
+                      <Image src="/assets/python.svg" alt="Python" width={24} height={24} />
                       <span>Python</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">
@@ -233,7 +233,7 @@ export default function Home() {
 
                   <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-4">
-                      <Image src="/rust.svg" alt="Rust" width={24} height={24} />
+                      <Image src="/assets/rust.svg" alt="Rust" width={24} height={24} />
                       <span>Rust</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">
@@ -243,7 +243,7 @@ export default function Home() {
 
                   <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-4">
-                      <Image src="/go.svg" alt="Go Lang" width={24} height={24} />
+                      <Image src="/assets/go.svg" alt="Go Lang" width={24} height={24} />
                       <span>Go Lang</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">
@@ -253,7 +253,7 @@ export default function Home() {
 
                   <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-4">
-                      <Image src="/haxe.svg" alt="Haxe" width={24} height={24} />
+                      <Image src="/assets/haxe.svg" alt="Haxe" width={24} height={24} />
                       <span>Haxe</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">
@@ -269,7 +269,7 @@ export default function Home() {
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2">
                   <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-4">
-                      <Image src="/react.svg" alt="React" width={24} height={24} />
+                      <Image src="/assets/react.svg" alt="React" width={24} height={24} />
                       <span>React</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">
@@ -279,7 +279,7 @@ export default function Home() {
 
                   <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-4">
-                      <Image src="/nextjs.svg" alt="Next.js" width={24} height={24} className="invert" />
+                      <Image src="/assets/nextjs.svg" alt="Next.js" width={24} height={24} className="invert" />
                       <span>Next.js</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">
@@ -289,7 +289,7 @@ export default function Home() {
 
                   <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-4">
-                      <Image src="/tailwind.svg" alt="Tailwind" width={24} height={24} />
+                      <Image src="/assets/tailwind.svg" alt="Tailwind" width={24} height={24} />
                       <span>Tailwind</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">
@@ -299,7 +299,7 @@ export default function Home() {
 
                   <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-4">
-                      <Image src="/nodejs.svg" alt="Node.js" width={24} height={24} />
+                      <Image src="/assets/nodejs.svg" alt="Node.js" width={24} height={24} />
                       <span>Node.js</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">
@@ -309,7 +309,7 @@ export default function Home() {
 
                   <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-4">
-                      <Image src="/python.svg" alt="Nextcord" width={24} height={24} />
+                      <Image src="/assets/python.svg" alt="Nextcord" width={24} height={24} />
                       <span>Nextcord</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">
@@ -324,19 +324,19 @@ export default function Home() {
                 <span className="text-yellow-400 text-sm font-medium">Tools & Platforms</span>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2">
                   <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
-                    <Image src="/git.svg" alt="Git" width={24} height={24} />
+                    <Image src="/assets/git.svg" alt="Git" width={24} height={24} />
                     <span>Git</span>
                   </div>
                   <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
-                    <Image src="/vscode.svg" alt="VS Code" width={24} height={24} />
+                    <Image src="/assets/vscode.svg" alt="VS Code" width={24} height={24} />
                     <span>VS Code</span>
                   </div>
                   <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
-                    <Image src="/github-mark.svg" alt="GitHub" width={24} height={24} className="invert" />
+                    <Image src="/assets/github-mark.svg" alt="GitHub" width={24} height={24} className="invert" />
                     <span>GitHub</span>
                   </div>
                   <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
-                    <Image src="/vercel.svg" alt="Vercel" width={24} height={24} />
+                    <Image src="/assets/vercel.svg" alt="Vercel" width={24} height={24} />
                     <span>Vercel</span>
                   </div>
                 </div>

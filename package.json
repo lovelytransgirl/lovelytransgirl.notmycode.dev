@@ -10,12 +10,17 @@
   },
   "dependencies": {
     "critters": "^0.0.23",
+    "gray-matter": "^4.0.3",
     "next": "^15.2.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.0.1",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@tailwindcss/typography": "^0.5.16",
     "eslint": "^9",
     "eslint-config-next": "15.1.2",
     "postcss": "^8",

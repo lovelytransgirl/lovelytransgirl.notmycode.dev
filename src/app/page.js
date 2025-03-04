@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -305,6 +306,16 @@ export default function Home() {
                       <div className="bg-green-400 h-2 rounded-full" style={{ width: '30%' }}></div>
                     </div>
                   </div>
+
+                  <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Image src="/python.svg" alt="Nextcord" width={24} height={24} />
+                      <span>Nextcord</span>
+                    </div>
+                    <div className="w-full bg-gray-600 rounded-full h-2">
+                      <div className="bg-green-400 h-2 rounded-full" style={{ width: '5%' }}></div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -332,6 +343,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <Footer/>
         </div>
       </main>
     </div>

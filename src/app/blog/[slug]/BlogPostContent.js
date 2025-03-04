@@ -36,8 +36,8 @@ export default function BlogPostContent({ post }) {
             </article>
           </div>
         </div>
+        <Footer/>
       </main>
-      <Footer/>
     </div>
   );
 }

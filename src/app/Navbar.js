@@ -24,7 +24,8 @@ const Navbar = () => {
           <button onClick={surprise} className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95">Home</button>
           <button onClick={notfin} className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95">Projects</button>
           <button onClick={notfin} className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95">Blogs</button>
-          <button onClick={surprise} className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95">Click for a surprise</button>
+          <button onClick={notfin} className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95">Links</button>
+          <button onClick={surprise} className="bg-gray-700/50 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-900/50 hover:border-transparent hover:scale-105 active:scale-95">Click 4 Surprise</button>
         </div>
       </div>
     </div>

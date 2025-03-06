@@ -262,7 +262,7 @@ export default function Home() {
                   </div>
                   <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-4">
-                      <Image src="/assets/gnubash.svg" alt="GNU Bash" width={24} height={24} />
+                      <Image src="/assets/gnubash.svg" alt="GNU Bash" width={24} height={24} className="invert" />
                       <span>GNU Bash</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">
@@ -271,7 +271,7 @@ export default function Home() {
                   </div>
                   <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
                     <div className="flex items-center gap-2 mb-4">
-                      <Image src="/assets/docker.svg" alt="Docker" width={24} height={24} />
+                      <Image src="/assets/docker.svg" alt="Docker" width={24} height={24} className="invert" />
                       <span>Docker</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">
@@ -356,6 +356,22 @@ export default function Home() {
                   <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
                     <Image src="/assets/vercel.svg" alt="Vercel" width={24} height={24} />
                     <span>Vercel</span>
+                  </div>
+                  <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
+                    <Image src="/assets/tailscale.svg" alt="Tailscale" width={24} height={24} className="invert" />
+                    <span>Tailscale</span>
+                  </div>
+                  <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
+                    <Image src="/assets/archlinux.svg" alt="Arch Linux" width={24} height={24} className="invert" />
+                    <span>Arch Linux</span>
+                  </div>
+                  <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
+                    <Image src="/assets/ubuntu.svg" alt="Ubuntu" width={24} height={24} className="invert" />
+                    <span>Ubuntu</span>
+                  </div>
+                  <div className="flex items-center gap-2 bg-gray-800/50 p-4 rounded-lg">
+                    <Image src="/assets/kde.svg" alt="kde" width={24} height={24} className="invert" />
+                    <span>KDE Plasma</span>
                   </div>
                 </div>
               </div>

@@ -260,6 +260,24 @@ export default function Home() {
                       <div className="bg-purple-400 h-2 rounded-full" style={{ width: '13%' }}></div>
                     </div>
                   </div>
+                  <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Image src="/assets/gnubash.svg" alt="GNU Bash" width={24} height={24} />
+                      <span>GNU Bash</span>
+                    </div>
+                    <div className="w-full bg-gray-600 rounded-full h-2">
+                      <div className="bg-purple-400 h-2 rounded-full" style={{ width: '20%' }}></div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col justify-between bg-gray-800/50 p-4 rounded-lg">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Image src="/assets/docker.svg" alt="Docker" width={24} height={24} />
+                      <span>Docker</span>
+                    </div>
+                    <div className="w-full bg-gray-600 rounded-full h-2">
+                      <div className="bg-purple-400 h-2 rounded-full" style={{ width: '10%' }}></div>
+                    </div>
+                  </div>
                 </div>
               </div>
 

@@ -26,9 +26,9 @@ export default function Home() {
                 <div className="p-2 rounded text-center items-center w-full">
                   <div className="mb-4 flex flex-col sm:flex-row items-center justify-center">
                     <Image
-                      className="w-20 h-20 sm:w-24 sm:h-24 rounded-lg shadow-lg border border-solid border-black/[.08] dark:border-white/[.145] mb-3 sm:mb-0 sm:mr-4"
-                      src="https://cdn.discordapp.com/avatars/1341940052791529516/25c59139f64df5c3416a3188be684492?size=1024"
-                      alt="discord pfp"
+                      className="w-20 h-20 sm:w-24 sm:h-24 rounded-full shadow-lg border border-solid border-black/[.08] dark:border-white/[.145] mb-3 sm:mb-0 sm:mr-4"
+                      src="/assets/pfp.png"
+                      alt="pfp"
                       width={128}
                       height={128}
                       priority={true}
@@ -100,17 +100,18 @@ export default function Home() {
                       </a>
                       <a
                         className="no-underline bg-gray-800/50 rounded-lg border border-purple-400/10 ring-4 ring-purple-400/20 transition-all duration-300 hover:bg-[#1a1a1a]/50 hover:scale-105 active:scale-95 inline-flex h-10 px-6 items-center text-sm font-medium text-center text-white gap-2 w-full sm:w-auto"
-                        href="https://discord.com/users/1341940052791529516"
+                        href="https://matrix.to/#/@mushroomcandela:matrix.org"
                         rel="noopener noreferrer"
-                        aria-label="Connect with lovelytransgirl on Discord"
+                        aria-label="Connect with me on Matrix!"
                       >
                         <Image
-                          src="/assets/discord.svg"
-                          alt="Discord icon"
+                          src="/assets/matrix.svg"
+                          alt="Matrix icon"
+                          className="invert"
                           width={16}
                           height={16}
                         />
-                        Discord
+                        Matrix
                       </a>
                     </div>
                     <a className="text-sm text-slate-400">
@@ -133,11 +134,11 @@ export default function Home() {
                   }`}>
                   <a
                     className="no-underline bg-gray-800/50 rounded-lg border border-purple-400/10 ring-4 ring-purple-400/20 transition-all duration-300 bg-gray-900/50 hover:bg-[#1a1a1a]/50 hover:scale-105 active:scale-95 inline-flex h-10 px-4 items-center justify-center gap-2"
-                    href="https://discord.com/users/1341940052791529516"
+                    href="https://matrix.to/#/@mushroomcandela:matrix.org"
                     rel="noopener noreferrer"
                   >
-                    <Image src="/assets/discord.svg" alt="Discord icon" width={16} height={16} />
-                    Discord
+                    <Image src="/assets/matrix.svg" alt="Matrix icon" width={16} height={16} className="invert" />
+                    Matrix
                   </a>
                   <a
                     className="no-underline bg-gray-800/50 rounded-lg border border-purple-400/10 ring-4 ring-purple-400/20 transition-all duration-300 bg-gray-900/50 hover:bg-[#1a1a1a]/50 hover:scale-105 active:scale-95 inline-flex h-10 px-4 items-center justify-center gap-2"
@@ -331,7 +332,7 @@ export default function Home() {
                       <span>Nextcord</span>
                     </div>
                     <div className="w-full bg-gray-600 rounded-full h-2">
-                      <div className="bg-green-400 h-2 rounded-full" style={{ width: '5%' }}></div>
+                      <div className="bg-green-400 h-2 rounded-full" style={{ width: '20%' }}></div>
                     </div>
                   </div>
                 </div>

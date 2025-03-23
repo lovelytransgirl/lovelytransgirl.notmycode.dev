@@ -1,0 +1,15 @@
+.markdown-content {
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+}
+
+.markdown-content pre,
+.markdown-content code {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.markdown-content * {
+  max-width: 100%;
+}

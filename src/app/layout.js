@@ -19,8 +19,8 @@ const MaliFont = Mali({
 });
 
 export const metadata = {
-  title: "Portfilio (how do you spell it idfk)",
-  description: "Hello there! Welcome to my website :3",
+  title: "Personal Portfolio",
+  description: "Haii there! Welcome to my silly website :3",
   author: "lovelytransgirl"
 };
 
@@ -38,15 +38,9 @@ export default function RootLayout({ children }) {
           href="https://github-readme-stats-eight-theta.vercel.app"
           crossOrigin="anonymous"
         />
-        <link
-          rel="preload"
-          href="/assets/background.webp"
-          as="image"
-          type="image/webp"
-        />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${MaliFont.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${MaliFont.variable} antialiased bg-base text-text`}
       >
         {children}
       </body>
